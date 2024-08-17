@@ -1,0 +1,88 @@
+/* Text Editor Customize Code */
+ol,ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,span,p {
+    padding: 0;
+    margin: 0;
+}
+hr {
+    margin: 0;
+}
+.dt-buttons {
+    display: none;
+}
+.app-brand-logo img {
+    width: 180px;
+    margin-left: 8px;
+}
+.user-profile-header .user-profile-img {
+    border: 5px solid transparent;
+}
+.table th {
+font-weight: 600;
+}
+.dt-length label{
+    display:none;
+}
+.swal2-popup.swal2-toast {
+background: #000000  !important;
+color: white !important;
+}
+
+/* Switch style */
+.switch-btn span {
+    display: flex;
+    align-items: center;
+    width: 42px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: #ddd;
+    transition: 0.3s;
+    padding: 0 3px;
+    position: relative;
+    margin: 5px 0 0;
+}
+
+.switch-btn span::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 4px;
+    transition: 0.6s;
+}
+
+.switch-btn input {
+    display: none;
+}
+
+.switch-btn input:checked ~ span {
+    background-color: #02bcf0;
+}
+
+.switch-btn input:checked ~ span::before {
+    left: 23px;
+}
+
+.front_bg{
+    background: linear-gradient(72.47deg, #186b16 22.16%, rgba(4, 226, 59, 0.7) 76.47%);
+    box-shadow: 0 2px 6px 0 rgba(115, 103, 240, .48);
+    color: #fff !important
+}
+.front_bg:hover{
+    background: linear-gradient(72.47deg, #232d3f 22.16%, rgba(36, 44, 58, 0.7) 76.47%)!important;
+    box-shadow: 0 2px 6px 0 rgba(115, 103, 240, .48)!important;
+    color: #fff !important
+}
+
+.sticky_top {
+    position: sticky;
+    top: 11%;
+    z-index: 1020;
+}
